@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetti | Campolucci Filippo</title>
+    <!-- Bootstrap 5 + icone -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS personalizzato comune -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- === NAVBAR (con link alla nuova pagina Progetti) === -->
+<nav class="navbar navbar-expand-lg navbar-custom px-4 py-2">
+    <div class="container-fluid">
+        <span class="navbar-brand text-white fw-bold fs-3 brand-name px-3 py-1 rounded-4">Campolucci Filippo</span>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+                <li class="nav-item"><a class="nav-link text-white nav-link-custom px-3 py-2 border border-white border-opacity-25 rounded-pill" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white nav-link-custom px-3 py-2 border border-white border-opacity-25 rounded-pill" href="chisono.html">Chi sono</a></li>
+                <li class="nav-item"><a class="nav-link text-white nav-link-custom px-3 py-2 border border-white border-opacity-25 rounded-pill" href="materieumanistiche.html">Materie Umanistiche</a></li>
+                <li class="nav-item"><a class="nav-link text-white nav-link-custom px-3 py-2 border border-white border-opacity-25 rounded-pill" href="materieprofessionali.html">Materie Professionali</a></li>
+                <li class="nav-item"><a class="nav-link text-white nav-link-custom px-3 py-2 border border-white border-opacity-25 rounded-pill active" href="progetti.html">Progetti</a></li>
+                <li class="nav-item"><a class="nav-link text-white nav-link-custom px-3 py-2 border border-white border-opacity-25 rounded-pill" href="educazionecivica.html">Educazione civica</a></li>
+                <li class="nav-item"><a class="nav-link text-white nav-link-custom px-3 py-2 border border-white border-opacity-25 rounded-pill" href="pcto.html">FSL</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container my-5">
+    <!-- INTESTAZIONE PAGINA -->
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bold text-primary">I miei progetti</h1>
+        <p class="lead text-muted">Idee, realizzazioni e soluzioni pratiche nate durante il mio percorso di studi</p>
+        <hr class="w-25 mx-auto">
+    </div>
+
+    <!-- PROGETTO 1 -->
+    <div class="content-card mb-5">
+        <div class="row align-items-center g-4">
+            <div class="col-md-5">
+                <!-- Immagine del progetto 1 (esempio da Lorem Picsum, facilmente sostituibile) -->
+                <img src="img/nonnaGym.jpg" alt="Progetto Gestione Biblioteca" class="img-fluid rounded-4 shadow-sm w-100">
+                <div class="mt-2 text-muted small text-center">Progetto: web-app per una palestra</div>
+            </div>
+            <div class="col-md-7">
+                <h3 class="section-title mb-3">Sistema di gestione palestra</h3>
+                <p><strong>Tecnologie:</strong> c#, Windows form</p>
+                <p>Il nostro software gestionale fatto su visual studio in modalità Windows Form riguardava la gestione di una palestra. In particolare era un programma che era controllato dalla segretaria di una palestra in cui poteva aggiungere gli abbonati, aggiornare con delle notifiche lo stato della palestra e poteva aggiungere i corsi inclusi nella palestra.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROGETTO 2 -->
+    <div class="content-card">
+        <div class="row align-items-center g-4 flex-md-row-reverse">
+            
+            <div class="col-md-7">
+                <h3 class="section-title mb-3">Space race</h3>
+                <p><strong>Tecnologie:</strong> C#, Windows Forms</p>
+                <p>Il progetto realizzato nella materia informatica prevede la creazione di un gioco in 2D in ambiente WindowsForm in linguaggio c#. Il lavoro è stato realizzato da un gruppo di 3 persone. Il nostro gioco si basa su 3 macchine di cui 1 è comandata dall'utente e le altre 2 sono comandate dal pc. Lo scopo principale del gioco consiste nel premere il più velocemente possibile la barra spaziatrice affinché la macchina vada più veloce. Il gioco è formato da 4 livelli ognuno più difficile dell'altro.</p>
+            </div>
+            <div class="col-md-5">
+                <!-- Immagine del progetto 2 -->
+                <img src="img/gioco.jpg" class="img-fluid rounded-4 shadow-sm w-100">
+                <img src="img/gioco1.jpg"  class="img-fluid rounded-4 shadow-sm w-100">
+                <div class="mt-2 text-muted small text-center">Progetto: gioco</div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- === FOOTER (stesso degli altri file) === -->
+<footer class="footer-custom">
+    <div class="container text-center">
+        <p class="mb-2">© 2025 Campolucci Filippo — Portfolio scolastico</p>
+        <small>IIS Marconi Pieralisi - Indirizzo Informatica</small>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
